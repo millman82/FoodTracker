@@ -15,6 +15,7 @@
 		27E452801CEBA6ED00844F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E4527E1CEBA6ED00844F01 /* LaunchScreen.storyboard */; };
 		27E4528B1CEBA6ED00844F01 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4528A1CEBA6ED00844F01 /* FoodTrackerTests.swift */; };
 		27E452961CEBA6ED00844F01 /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E452951CEBA6ED00844F01 /* FoodTrackerUITests.swift */; };
+		27E452A41CF290F000844F01 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E452A31CF290F000844F01 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		27E452911CEBA6ED00844F01 /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E452951CEBA6ED00844F01 /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		27E452971CEBA6ED00844F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E452A31CF290F000844F01 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				27E452721CEBA6ED00844F01 /* AppDelegate.swift */,
 				27E452741CEBA6ED00844F01 /* ViewController.swift */,
 				27E452761CEBA6ED00844F01 /* Main.storyboard */,
+				27E452A31CF290F000844F01 /* RatingControl.swift */,
 				27E4527C1CEBA6ED00844F01 /* Assets.xcassets */,
 				27E4527E1CEBA6ED00844F01 /* LaunchScreen.storyboard */,
 				27E452811CEBA6ED00844F01 /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E452A41CF290F000844F01 /* RatingControl.swift in Sources */,
 				27E452751CEBA6ED00844F01 /* ViewController.swift in Sources */,
 				27E452731CEBA6ED00844F01 /* AppDelegate.swift in Sources */,
 				27E4527B1CEBA6ED00844F01 /* FoodTracker.xcdatamodeld in Sources */,
